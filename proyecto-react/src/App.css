@@ -1,0 +1,11 @@
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    background-color: #7047d1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 20px;
+    color: white;
+}
