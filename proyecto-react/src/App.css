@@ -1,4 +1,4 @@
-h1{
+h1 {
     display: flex;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -8,4 +8,17 @@ h1{
     margin-bottom: 5px;
     padding: 20px;
     color: white;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+body {
+    background-color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
