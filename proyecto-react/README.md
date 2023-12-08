@@ -22,6 +22,6 @@ Game Store es una aplicación de comercio electrónico que permite a los usuario
   
 2. Instalación de modulos
    
+- Primero, se ingresa a la carpeta donde esté el proyecto de React: cd "nombre de la carpeta donde este el proyecto"
 - Despues, se instala la carpeta node_modules ingresando el siguiente comando: git init
-- Una vez hecho eso, se ingresa a la carpeta donde esté el proyecto de React: cd "nombre de la carpeta donde este el proyecto"
 - Para iniciar la visualización del mismo, se debe ingresar lo siguiente: npm run dev

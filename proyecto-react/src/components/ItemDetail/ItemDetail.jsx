@@ -3,13 +3,12 @@ import ItemCount from "../ItemCount/ItemCount"
 import { useState } from "react"
 import { Link } from "react-router-dom"
 import { useContext } from "react"
-
 import { CartContext } from "../../context/CartContext"
 
-const ItemDetail = ({id, title, price, img, stock}) => {
+const ItemDetail = ({ id, title, price, img, stock }) => {
     const [quantityAdded, setQuantityAdded] = useState(0)
 
-    const {addItem} = useContext(CartContext)
+    const { addItem } = useContext(CartContext)
 
     const handleOnAdd = (quantity) => {
         setQuantityAdded(quantity)
@@ -19,15 +18,15 @@ const ItemDetail = ({id, title, price, img, stock}) => {
 
         addItem(item, quantity)
     }
-    return(
-        <div className= {estilos.item}>
+    return (
+        <div className={estilos.item}>
             <header>
                 <h2>
                     {title}
                 </h2>
             </header>
             <picture>
-                <img className= {estilos.imagen} src={img} alt={title} />
+                <img className={estilos.imagen} src={img} alt={title} />
             </picture>
             <section className={estilos.detail}>
                 <p>
@@ -40,13 +39,13 @@ const ItemDetail = ({id, title, price, img, stock}) => {
             <footer>
                 {
                     quantityAdded > 0 ? (
-                        <Link to='/cart'className={estilos.button}>Terminar compra</Link>
+                        <Link to='/cart' className={estilos.button}>Terminar compra</Link>
                     ) : (
-                        <ItemCount initial={1} stock={stock} onAdd={handleOnAdd}/>
+                        <ItemCount initial={1} stock={stock} onAdd={handleOnAdd} />
                     )
                 }
             </footer>
-            
+
         </div>
     )
 }
