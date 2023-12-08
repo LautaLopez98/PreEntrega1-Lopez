@@ -1,6 +1,6 @@
 # Game Store - Aplicación de Tienda de Videojuegos
 
-Bienvenido a Game Store, una aplicación de tienda de videojuegos construida con React.
+Bienvenido a Game Store, una aplicación de tienda de videojuegos construida con React Vite.
 
 ## Descripción del Proyecto
 
@@ -8,19 +8,19 @@ Game Store es una aplicación de comercio electrónico que permite a los usuario
 
 ## Funcionalidades Principales
 
-- **Explorar Juegos:** Navega a través de diferentes categorías de juegos, incluyendo PS5, PS4 y PS3.
-- **Detalles del Producto:** Visualiza detalles específicos de cada juego, como título, precio y stock disponible.
-- **Carrito de Compras:** Agrega y administra productos en tu carrito de compras.
-- **Checkout:** Completa el proceso de pago proporcionando información personal.
+- **Explorar Juegos:** Navegá a través de diferentes categorías de juegos, incluyendo PS5, PS4 y PS3.
+- **Detalles del Producto:** Visualizá detalles específicos de cada juego, como título, precio y stock disponible.
+- **Carrito de Compras:** Agregá y administra productos en tu carrito de compras.
+- **Checkout:** Completá el proceso de pago proporcionando información personal.
 
 ## Instalación
 
-1. Clona el repositorio:
+1. Clonar el repositorio:
 
 - Abrir Git Bash
-- En la consola se ingresa este comando: git clone https://tu-repositorio.git
+- En la consola se ingresa este comando: git clone https://github.com/LautaLopez98/ProyectoFinalReact-Lopez.git
   
-2. Instalación de modulos
+2. Instalación del proyecto
    
 - Primero, se ingresa a la carpeta donde esté el proyecto de React: cd "nombre de la carpeta donde este el proyecto"
 - Despues, se instala la carpeta node_modules ingresando el siguiente comando: git init
