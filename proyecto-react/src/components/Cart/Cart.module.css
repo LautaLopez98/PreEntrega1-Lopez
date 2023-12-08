@@ -1,0 +1,54 @@
+.container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #3c3fe7;
+    color: white;
+}
+
+
+.total {
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.cartbtn,
+.checkout {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.cart:hover,
+.checkout:hover {
+    background-color: #2980b9;
+}
+
+.cart {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}

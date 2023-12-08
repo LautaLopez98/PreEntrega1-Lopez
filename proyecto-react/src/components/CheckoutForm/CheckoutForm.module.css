@@ -1,0 +1,40 @@
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.formLabel {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.formInput {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+.formButton {
+    background-color: #3c3fe7;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formButton:hover {
+    background-color: #7375ce;
+}
+
+.form {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}

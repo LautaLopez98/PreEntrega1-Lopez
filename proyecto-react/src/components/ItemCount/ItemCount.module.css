@@ -12,7 +12,7 @@
 }
 
 .quantity button {
-    background-color: #7047d1;
+    background-color: #3c3fe7;
     color: #fff;
     border: none;
     padding: 8px 12px;
@@ -26,11 +26,11 @@
 }
 
 .quantity button:hover {
-    background-color: #0056b3;
+    background-color: #0990df;
 }
 
 .addToCart button {
-    background-color: #7047d1;
+    background-color: #3c3fe7;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -45,5 +45,5 @@
 }
 
 .addToCart button:hover {
-    background-color: #0056b3;
+    background-color: #0990df;
 }

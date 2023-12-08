@@ -1,10 +1,11 @@
 .navBar {
-  background-color: #7047d1;
+  background-color: #3c3fe7;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  margin-bottom: 20px;
 }
 
 .ul {
@@ -26,7 +27,7 @@
 }
 
 .ul :hover {
-  color: #1c8fec;
+  color: rgb(102, 163, 199);
 }
 
 @media (max-width: 768px) {
